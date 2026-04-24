@@ -1,0 +1,18 @@
+import pygame, random
+pygame.init()
+
+screen = pygame.display.set_mode((400, 400))
+clock = pygame.time.Clock()
+
+while True:
+    screen.fill((0,0,0))
+
+    pygame.draw.polygon(screen, (0,255,0), [(200,50),(100,300),(300,300)])
+    pygame.draw.rect(screen, (139,69,19), (180,300,40,60))
+
+    for _ in range(10):
+        color = (255,0,0) if random.random()>0.5 else (255,255,0)
+        pygame.draw.circle(screen, color, (random.randint(120,280), random.randint(80,280)), 5)
+
+    pygame.display.flip()
+    clock.tick(2)
