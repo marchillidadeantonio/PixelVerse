@@ -1,0 +1,11 @@
+<div id="game-container">
+  <iframe src="joc.html"></iframe>
+</div>
+
+<button onclick="fullscreen()">Pantalla completa</button>
+
+<script>
+function fullscreen() {
+  document.querySelector("iframe").requestFullscreen();
+}
+</script>
