@@ -1,0 +1,20 @@
+PixelVerse/
+├── .github/
+│   └── workflows/ (CI/CD)
+├── docs/
+│   ├── README.md
+│   ├── CONTRIBUTING.md
+│   ├── INSTALLATION.md
+│   └── GAMES.md
+├── src/
+│   ├── games/
+│   │   ├── 1-arbre-nadal/
+│   │   ├── 2-superman/
+│   │   └── ... (tots els 14)
+│   ├── assets/
+│   ├── css/
+│   └── js/
+├── tests/
+├── index.html
+├── LICENSE
+└── .gitignore
