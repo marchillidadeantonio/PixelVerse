@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Arbre de Nadal</title>
+</head>
+<body>
+<canvas id="canvas" width="400" height="400"></canvas>
+
+<script>
+let c = document.getElementById("canvas");
+let ctx = c.getContext("2d");
+
+function drawTree() {
+  ctx.fillStyle = "green";
+  ctx.beginPath();
+  ctx.moveTo(200, 50);
+  ctx.lineTo(100, 300);
+  ctx.lineTo(300, 300);
+  ctx.closePath();
+  ctx.fill();
+
+  // tronc
+  ctx.fillStyle = "brown";
+  ctx.fillRect(180, 300, 40, 60);
+
+  // llums
+  for (let i = 0; i < 10; i++) {
+    ctx.fillStyle = Math.random() > 0.5 ? "red" : "yellow";
+    ctx.beginPath();
+    ctx.arc(120 + Math.random()*160, 80 + Math.random()*200, 5, 0, Math.PI*2);
+    ctx.fill();
+  }
+}
+
+setInterval(() => {
+  ctx.clearRect(0,0,400,400);
+  drawTree();
+}, 500);
+</script>
+</body>
+</html>
