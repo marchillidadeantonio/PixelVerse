@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelVerse - Main Menu</title>
+</head>
+<body>
+    <h1>Welcome to PixelVerse</h1>
+    <ul>
+        <li><a href="1-arbre-nadal/index.html">Arbre Nadal</a></li>
+        <li><a href="2-superman/index.html">Superman</a></li>
+        <li><a href="3-scranci/index.html">Scranci</a></li>
+        <li><a href="4-ous-pasqua/index.html">Ous Pasqua</a></li>
+        <li><a href="5-glovi/index.html">Glovi</a></li>
+        <li><a href="6-escondite/index.html">Escondite</a></li>
+        <li><a href="7-sense-titol/index.html">Sense Titol</a></li>
+        <li><a href="8-estrellas/index.html">Estrellas</a></li>
+        <li><a href="9-ninja/index.html">Ninja</a></li>
+        <li><a href="10-dash/index.html">Dash</a></li>
+        <li><a href="11-dash-minecraft/index.html">Dash Minecraft</a></li>
+        <li><a href="12-escape/index.html">Escape</a></li>
+        <li><a href="13-among-us/index.html">Among Us</a></li>
+        <li><a href="14-juegos-divertidos/index.html">Juegos Divertidos</a></li>
+    </ul>
+</body>
+</html>
